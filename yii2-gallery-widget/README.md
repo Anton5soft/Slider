@@ -48,7 +48,7 @@ Gallery Widget for Yii2
         ],
     ];?>
     <?= Slider\gallery\Gallery::widget(['items' => $items]);?>
-In extentions.php Yii2
+In extentions.php Yii2 !name of the path must be Image!
 =======================
     return array (
       'Slider/yii2-gallery-widget' =>
