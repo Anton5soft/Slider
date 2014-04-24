@@ -1,6 +1,5 @@
 Gallery Widget for Yii2
 =======================
-Usage
    <?php $items = [
         [
             'url' => 'http://farm8.static.flickr.com/7429/9478294690_51ae7eb6c9_b.jpg',
@@ -49,7 +48,8 @@ Usage
         ],
     ];?>
     <?= Slider\gallery\Gallery::widget(['items' => $items]);?>
-    In extensions.php
+In extentions.php Yii2
+=======================
     return array (
       'Slider/yii2-gallery-widget' =>
       array (
